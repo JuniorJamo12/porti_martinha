@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio | Merry Zandamela</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Merry.dev</div>
+    <ul class="nav-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#resume">Currículo</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <div class="hamburger">☰</div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Olá, eu sou <span>Merry Zandamela</span></h1>
+      <p>Uma Mini Desenvolvedora Front-end | UI/UX Enthusiast</p>
+      <p>Transformo ideias em experiências digitais incríveis com HTML, CSS, JavaScript</p>
+      <a href="#contact" class="btn">Fale Comigo</a>
+    </div>
+    <div class="home-img">
+      <img src="imagens/merry.jpeg" alt="Zandamela" />
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <h2>Meus Projetos</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 1" />
+        <h3>App de Tarefas</h3>
+        <p>Gerenciador de tarefas com drag & drop, feito com React e Firebase.</p>
+        <div class="links">
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 2" />
+        <h3>E-commerce Moderno</h3>
+        <p>Loja virtual com carrinho, filtros e integração com Stripe.</p>
+        <div class="links">
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 3" />
+        <h3>Dashboard Admin</h3>
+        <p>Painel com gráficos em tempo real usando Chart.js e Node.js.</p>
+        <div class="links">
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculo -->
+  <section id="resume" class="section resume">
+    <h2>Currículo</h2>
+    <div class="resume-content">
+      <div class="resume-item">
+        <h3>Educação</h3>
+        <p><strong>Ensino Medio </strong><br>Escola secundaria de nhongonhana - 2022</p>
+        <p>ITC- actual </p>
+      </div>
+      <div class="resume-item">
+        <h3>Experiência</h3>
+        <p><strong>Front-end Developer - por conta propria</strong><br>2025</p>
+        <ul>
+          <li>Desenvolvimento de interfaces em java e html&css</li>
+          <li>edicao de videos (nao profissional ) </li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <h3>Habilidades</h3>
+        <div class="skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>Java</span><span>Git</span><span>Redes de computadores</span>
+          <span>ingles</span> <span>eletrecidade industrial</span>
+        </div>
+      </div>
+      <a href="resume-merry.pdf" download class="btn">Baixar CV (PDF)</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Entre em Contato</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Seu Nome" required />
+      <input type="email" placeholder="Seu Email" required />
+      <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+      <button type="submit" class="btn">Enviar Mensagem</button>
+    </form>
+    <div class="success-message" id="success-message">Mensagem enviada com sucesso!</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Merry Zandamela. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
