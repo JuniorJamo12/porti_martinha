@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Layout Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        header {
+            background: #0080ff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        nav {
+            width: 150px;
+            background: #60c139;
+            padding: 10px;
+        }
+
+        main {
+            flex: 1;
+            padding: 10px;
+            background: #c84646;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>Meu Layout Simples</header>
+
+    <div class="container">
+        <nav>
+            <p>Menu</p>
+            <a href="#">Home</a><br>
+            <a href="#">Sobre</a><br>
+            <a href="#">Contactos</a><br> <br>
+            <a href="../../index.html">VOLTAR</a>
+        </nav>
+
+        <main>
+            <h3>Conteúdo Principal</h3>
+            <p>Aqui fica o conteúdo.</p>
+        </main>
+    </div>
+
+</body>
+
+</html>
