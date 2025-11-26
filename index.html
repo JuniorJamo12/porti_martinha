@@ -6,6 +6,8 @@
   <title>Meu Portfólio | Merry Zandamela</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -24,11 +26,12 @@
   <!-- Home -->
   <section id="home" class="section home">
     <div class="home-content">
-      <h1>Olá, eu sou <span>Merry Zandamela</span></h1>
-      <p>Uma Mini Desenvolvedora Front-end | UI/UX Enthusiast</p>
-      <p>Transformo ideias em experiências digitais incríveis com HTML, CSS, JavaScript</p>
-      <a href="#contact" class="btn">Fale Comigo</a>
-    </div>
+      <div class="home-content" data-aos="fade-up">
+        <h1 data-aos="fade-up" data-aos-delay="300">Olá, eu sou a <span> Merry Zandamela</span></h1>
+        <p data-aos="fade-up" data-aos-delay="600">Uma Mini Desenvolvedora Front-end | UI/UX Enthusiast</p>
+        <p data-aos="fade-up" data-aos-delay="900">Transformo ideias em experiências digitais incríveis com HTML, CSS, JavaScript</p>
+        <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="1200">Fale Comigo</a>
+      
     <div class="home-img">
       <img src="imagens/merry.jpeg" alt="Zandamela" />
     </div>
@@ -38,7 +41,7 @@
   <section id="projects" class="section projects">
     <h2>Meus Projetos</h2>
     <div class="project-grid">
-      <div class="project-card">
+      <div class="project-card"data-aos="fade-up" data-aos-delay="200">
         <img src="imagens/flex.png" alt="Projeto 1" />
         <h3>Projecto 1 </h3>
         <p>Layout de página com header full, barra lateral e conteúdo principal com Flexbox</p>
@@ -46,7 +49,7 @@
           <a href="projectos/projecto1/index.html" target="_blank">Ir ate projecto 1</a>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card"data-aos="fade-up" data-aos-delay="200">
         <img src="imagens/form.jfif" alt="Projeto 2" />
         <h3>Projecto 2</h3>
         <p> Formulário com validação HTML5</p>
@@ -54,7 +57,7 @@
           <a href="projectos/projecto2/index.html" target="_blank">ir ate projecto 2</a>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card"data-aos="fade-up" data-aos-delay="200">
         <img src="imagens/carossel.jfif" alt="Projeto 3" />
         <h3>Projecto 3</h3>
         <p>Carrossel de imagens super simples</p>

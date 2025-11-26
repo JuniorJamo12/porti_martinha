@@ -30,3 +30,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     navLinks.classList.remove('active');
   });
 });
+
+AOS.init({ duration: 1000, once: true });
