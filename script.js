@@ -18,14 +18,14 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     this.reset();
   }, 3000);
 });
-
+ 
 // Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
     document.querySelector(this.getAttribute('href')).scrollIntoView({
       behavior: 'smooth'
-    });
+    });  
     // Fecha menu mobile
     navLinks.classList.remove('active');
   });
